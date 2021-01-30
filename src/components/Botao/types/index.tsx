@@ -1,7 +1,9 @@
+import React from 'react';
+
 export interface IProps {
-    onClick(): void,
-    label: string
-    icon?: string
-    background: string
-    color: string
+  onClick(event: React.MouseEvent<HTMLButtonElement>): void;
+  label: string;
+  background: string;
+  color: string;
+  icone?: string;
 }
