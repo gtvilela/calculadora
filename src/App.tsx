@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Visor expressao="23 + 2" resultado="25"/>
-    <Botao onClick={() => {}} label="2" background="red" color="white"/>
+    <Botao onClick={() => {}} label="2" background="tomato" color="white"/>
     </>
   );
 }

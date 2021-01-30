@@ -7,7 +7,7 @@ color: string
 export const BotaoContainer = styled.button<IBotaoContainerProps>`
     background: ${(props) => props.background};
     color: ${(props) => props.color};
-    midth: 50px;
+    width: 50px;
     height: 50px;
     border: 0;
     border-radius: 8px;

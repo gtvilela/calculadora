@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 export const VisorContainer = styled.div`
-width: px;
+width: 150px;
 padding: 16px;
 background: #000;
+text-align: right;
 
 > div {
     color: #808080
